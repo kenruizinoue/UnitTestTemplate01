@@ -1,6 +1,4 @@
-package com.kenruizinoue.unittesttemplate01
-
-import androidx.appcompat.app.AppCompatActivity
+package com.kenruizinoue.unittesttemplate01import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_main.*
 
@@ -23,3 +21,4 @@ class MainActivity : AppCompatActivity() {
         resultTextView.text = ConverterUtil.convertCelsiusToFahrenheit(textToConvert).toString()
     }
 }
+
